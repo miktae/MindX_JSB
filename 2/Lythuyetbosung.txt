@@ -1,0 +1,17 @@
+1. Inline
+Các phần tử có thuộc tính Inline có những đặc tính mặc định như sau:
+-Luôn nằm trên một dòng chữ hay nội dung
+- Ví dụ như các từ của 1 đoạn văn: nằm cùng 1 hàng, hết chỗ trống sẽ xuống dòng
+-Không áp dụng được thuộc tính margin/padding-top, bottom,  nhưng vẫn áp dụng được margin,padding-left và right
+- Không áp dụng được thuộc tính width and height
+- Nếu sử dụng thuộc tính float, các phần tử inline sẽ tự động trở thành block-level
+Ví dụ: Thẻ <span></span>; <a></a>; <b></b>; <i></i>; <img></img>
+2. Block:
+- Phần tử có thuộc tính display thuộc kiểu Block sẽ nằm trên một dòng riêng.
+- Coi phần tử Inline như là một đoạn văn riêng rẽ, tách biệt với các phần nằm trên và dưới nó
+- Với phần tử thuộc kiểu Block, định nghĩa width và height được cho nó (Mặc định giá trị là 100% so với phần tử cha).
+Ví dụ: Thẻ <h1> -> <h6>; <hr>; <p>; <ol>; <ul>; <li>; <div>; <video>; <nav>
+3. Inline- block:
+Inline-block là kiểu kết hợp giữa Inline và Block, nó vừa có thể hiển thị trên cùng dòng như Inline, lại có thể căn chỉnh được các giá trị như đã nêu ở trên giống như Block.
+Ví dụ:
+<button> trong FireFox, <progress> trong Firefox; <input> trong Chrome.
